@@ -7,7 +7,7 @@ export interface Product {
   quantity: number;
 }
 
-export const articleDtoSchema: yup.SchemaOf<Product> = yup.object({
+export const productSchema: yup.SchemaOf<Product> = yup.object({
   id: yup.number().notRequired(),
   name: yup.string().min(4).required(),
   quantity: yup.number().required(),

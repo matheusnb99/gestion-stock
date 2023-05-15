@@ -1,3 +1,5 @@
+import { ProductFrom } from "./ProductForm";
+
 type Props = {
   label: string;
   quantity: number;
